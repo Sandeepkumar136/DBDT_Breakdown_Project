@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d188c6-f70a-4656-970b-4cf839e5b8bd" name="Changes" comment="Refactor PDF handling with OCR and project structure updates&#10;&#10;Added OCR-based text extraction for scanned PDFs using Tesseract. Improved project structure with separate directories for input files and outputs (text and OCR). Updated `.idea` configuration for better IDE compatibility and version control setup." />
+    <list default="true" id="f8d188c6-f70a-4656-970b-4cf839e5b8bd" name="Changes" comment="Add logging, metadata extraction, and directory updates&#10;&#10;Introduced logging for better monitoring and debugging of the PDF processing workflow. Added metadata extraction functionality for PDFs and improved directory structure to include a dedicated `logs` folder. Updated the script for better error handling and enhanced clarity in both text and OCR-based extraction processes.">
+      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/run_log_2025-02-27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/run_log_2025-02-27.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,35 +17,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sandeepkumar136"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sandeepkumar136&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sandeepkumar136/DBDT_Breakdown_Project.git",
-    "accountId": "5a1422d9-96af-4516-9e00-5afac33899ef"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sandeepkumar136/DBDT_Breakdown_Project.git&quot;,
+    &quot;accountId&quot;: &quot;5a1422d9-96af-4516-9e00-5afac33899ef&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2tdHVOdaPfskRcZrfxSef5lZBsB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Home.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ksund/PycharmProjects/PythonProject/DBDT_Breakdown_Project/INPUT"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Home.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ksund/PycharmProjects/PythonProject/DBDT_Breakdown_Project/INPUT&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ksund\PycharmProjects\PythonProject\DBDT_Breakdown_Project\INPUT" />
@@ -99,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740679134193</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add logging, metadata extraction, and directory updates&#10;&#10;Introduced logging for better monitoring and debugging of the PDF processing workflow. Added metadata extraction functionality for PDFs and improved directory structure to include a dedicated `logs` folder. Updated the script for better error handling and enhanced clarity in both text and OCR-based extraction processes.">
+      <option name="closed" value="true" />
+      <created>1740679513873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740679513873</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +119,7 @@
     <MESSAGE value="Add PDF text extraction script and sample input/output files&#10;&#10;Introduced functionality to extract text from PDF files using PyMuPDF and save it into a text file. Included a sample PDF (`Certificate.pdf`) as input and an example extracted text file (`output.txt`) for demonstration. This provides a basic framework for handling PDF text extraction." />
     <MESSAGE value="Refactor PDF extraction to include metadata and page-wise text&#10;&#10;Reorganized the script to extract metadata into a JSON file and save each page's text as separate .txt files. Added encoding detection using `chardet` to handle character encodings. Updated directory structure and improved error handling for better robustness." />
     <MESSAGE value="Refactor PDF handling with OCR and project structure updates&#10;&#10;Added OCR-based text extraction for scanned PDFs using Tesseract. Improved project structure with separate directories for input files and outputs (text and OCR). Updated `.idea` configuration for better IDE compatibility and version control setup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor PDF handling with OCR and project structure updates&#10;&#10;Added OCR-based text extraction for scanned PDFs using Tesseract. Improved project structure with separate directories for input files and outputs (text and OCR). Updated `.idea` configuration for better IDE compatibility and version control setup." />
+    <MESSAGE value="Add logging, metadata extraction, and directory updates&#10;&#10;Introduced logging for better monitoring and debugging of the PDF processing workflow. Added metadata extraction functionality for PDFs and improved directory structure to include a dedicated `logs` folder. Updated the script for better error handling and enhanced clarity in both text and OCR-based extraction processes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add logging, metadata extraction, and directory updates&#10;&#10;Introduced logging for better monitoring and debugging of the PDF processing workflow. Added metadata extraction functionality for PDFs and improved directory structure to include a dedicated `logs` folder. Updated the script for better error handling and enhanced clarity in both text and OCR-based extraction processes." />
   </component>
 </project>

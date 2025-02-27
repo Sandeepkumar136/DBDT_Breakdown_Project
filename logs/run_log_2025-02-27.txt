@@ -18,3 +18,27 @@
 2025-02-27 23:32:04,727 - INFO - \u2705 OCR text extracted and saved to ocr_extracted_text\Certificate_page_1.txt
 2025-02-27 23:32:04,730 - INFO - 
 \u2705 All PDFs processed successfully!
+2025-02-27 23:43:43,393 - INFO - 
+\U0001f4cc Starting PDF Processing...
+
+2025-02-27 23:43:43,395 - INFO - 
+\U0001f539 Processing: Certificate.pdf
+2025-02-27 23:43:43,427 - INFO - \U0001f4c4 Metadata saved for Certificate.pdf
+2025-02-27 23:43:43,464 - INFO - \u2705 Extracted text saved for Certificate.pdf
+2025-02-27 23:44:32,511 - INFO - 
+\U0001f4cc Starting PDF Processing...
+
+2025-02-27 23:44:32,512 - INFO - 
+\U0001f539 Processing: Certificate.pdf
+2025-02-27 23:44:32,539 - INFO - \U0001f4c4 Metadata saved for Certificate.pdf
+2025-02-27 23:44:32,581 - INFO - \u2705 Extracted text saved for Certificate.pdf
+2025-02-27 23:44:45,253 - INFO - 
+\U0001f4cc Starting PDF Processing...
+
+2025-02-27 23:44:45,254 - INFO - 
+\U0001f539 Processing: Certificate.pdf
+2025-02-27 23:44:45,256 - INFO - \U0001f4c4 Extracted metadata for Certificate.pdf: {'Title': '', 'Author': '', 'Creation Date': "D:20250214141448+05'30'", 'Modification Date': ''}
+2025-02-27 23:44:45,272 - INFO - \u2705 Extracted text saved to extracted_text\Certificate.txt
+2025-02-27 23:44:46,919 - INFO - \u2705 OCR text extracted and saved to ocr_extracted_text\Certificate_page_1.txt
+2025-02-27 23:44:46,923 - INFO - 
+\u2705 All PDFs processed successfully!

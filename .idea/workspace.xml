@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8d188c6-f70a-4656-970b-4cf839e5b8bd" name="Changes" comment="Refactor PDF extraction to include metadata and page-wise text&#10;&#10;Reorganized the script to extract metadata into a JSON file and save each page's text as separate .txt files. Added encoding detection using `chardet` to handle character encodings. Updated directory structure and improved error handling for better robustness.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sandeepkumar136"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sandeepkumar136/DBDT_Breakdown_Project.git",
+    "accountId": "5a1422d9-96af-4516-9e00-5afac33899ef"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2tdHVOdaPfskRcZrfxSef5lZBsB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Home.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ksund/PycharmProjects/PythonProject/DBDT_Breakdown_Project/INPUT"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ksund\PycharmProjects\PythonProject\DBDT_Breakdown_Project\INPUT" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ksund\PycharmProjects\PythonProject\DBDT_Breakdown_Project" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8d188c6-f70a-4656-970b-4cf839e5b8bd" name="Changes" comment="" />
+      <created>1740675054130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740675054130</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add Home.py and project configuration file&#10;&#10;Created a new Python script `Home.py` and initialized project configuration with `.idea/DBDT_Breakdown_Project.iml`. These changes set up the project's structure and environment.">
+      <option name="closed" value="true" />
+      <created>1740675324877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740675324877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add PDF text extraction script and sample input/output files&#10;&#10;Introduced functionality to extract text from PDF files using PyMuPDF and save it into a text file. Included a sample PDF (`Certificate.pdf`) as input and an example extracted text file (`output.txt`) for demonstration. This provides a basic framework for handling PDF text extraction.">
+      <option name="closed" value="true" />
+      <created>1740676700730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740676700730</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor PDF extraction to include metadata and page-wise text&#10;&#10;Reorganized the script to extract metadata into a JSON file and save each page's text as separate .txt files. Added encoding detection using `chardet` to handle character encodings. Updated directory structure and improved error handling for better robustness.">
+      <option name="closed" value="true" />
+      <created>1740677786960</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740677786960</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Home.py and project configuration file&#10;&#10;Created a new Python script `Home.py` and initialized project configuration with `.idea/DBDT_Breakdown_Project.iml`. These changes set up the project's structure and environment." />
+    <MESSAGE value="Add PDF text extraction script and sample input/output files&#10;&#10;Introduced functionality to extract text from PDF files using PyMuPDF and save it into a text file. Included a sample PDF (`Certificate.pdf`) as input and an example extracted text file (`output.txt`) for demonstration. This provides a basic framework for handling PDF text extraction." />
+    <MESSAGE value="Refactor PDF extraction to include metadata and page-wise text&#10;&#10;Reorganized the script to extract metadata into a JSON file and save each page's text as separate .txt files. Added encoding detection using `chardet` to handle character encodings. Updated directory structure and improved error handling for better robustness." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor PDF extraction to include metadata and page-wise text&#10;&#10;Reorganized the script to extract metadata into a JSON file and save each page's text as separate .txt files. Added encoding detection using `chardet` to handle character encodings. Updated directory structure and improved error handling for better robustness." />
+  </component>
+</project>
